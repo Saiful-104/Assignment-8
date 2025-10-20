@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500&h=500&fit=crop",
+    "title": "TaskMaster Pro",
+    "companyName": "ProductivityCo",
+    "description": "A powerful task management app that helps you organize your daily activities, set priorities, and achieve your goals efficiently with smart reminders and team collaboration features.",
+    "size": 45.2,
+    "reviews": 12450,
+    "ratingAvg": 4.7,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 890 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 7990 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=500&h=500&fit=crop",
+    "title": "FitTrack Journey",
+    "companyName": "HealthTech Inc",
+    "description": "Track your fitness journey with comprehensive workout plans, nutrition guidance, calorie tracking, and progress monitoring tools with AI-powered personal trainer.",
+    "size": 78.5,
+    "reviews": 18920,
+    "ratingAvg": 4.8,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 95 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 720 },
+      { "name": "4 star", "count": 4250 },
+      { "name": "5 star", "count": 13675 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=500&h=500&fit=crop",
+    "title": "BudgetWise",
+    "companyName": "FinanceFlow",
+    "description": "Take control of your finances with smart budgeting tools, expense tracking, bill reminders, investment insights, and comprehensive financial reports.",
+    "size": 52.8,
+    "reviews": 9850,
+    "ratingAvg": 4.6,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 98 },
+      { "name": "2 star", "count": 245 },
+      { "name": "3 star", "count": 985 },
+      { "name": "4 star", "count": 2950 },
+      { "name": "5 star", "count": 5572 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=500&h=500&fit=crop",
+    "title": "LinguaLearn",
+    "companyName": "EduSmart",
+    "description": "Master new languages with interactive lessons, real-world conversations, AI-powered pronunciation feedback, and cultural insights from native speakers.",
+    "size": 95.3,
+    "reviews": 25600,
+    "ratingAvg": 4.9,
+    "downloads": 8500000,
+    "ratings": [
+      { "name": "1 star", "count": 64 },
+      { "name": "2 star", "count": 128 },
+      { "name": "3 star", "count": 512 },
+      { "name": "4 star", "count": 5120 },
+      { "name": "5 star", "count": 19776 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1508672019048-805c876b67e2?w=500&h=500&fit=crop",
+    "title": "MindfulMoments",
+    "companyName": "Wellness Studio",
+    "description": "Find peace and clarity through guided meditation, breathing exercises, sleep stories, and mindfulness practices designed by wellness experts.",
+    "size": 38.7,
+    "reviews": 14200,
+    "ratingAvg": 4.7,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 142 },
+      { "name": "2 star", "count": 284 },
+      { "name": "3 star", "count": 852 },
+      { "name": "4 star", "count": 4260 },
+      { "name": "5 star", "count": 8662 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&h=500&fit=crop",
+    "title": "CodeCraft IDE",
+    "companyName": "DevTools Pro",
+    "description": "A mobile IDE for developers on the go. Write, test, and debug code anywhere with powerful features, syntax highlighting, and Git integration.",
+    "size": 125.4,
+    "reviews": 8750,
+    "ratingAvg": 4.5,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 175 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 1050 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 4375 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=500&h=500&fit=crop",
+    "title": "PhotoMagic Editor",
+    "companyName": "Creative Labs",
+    "description": "Transform your photos with professional editing tools, AI enhancements, stunning filters, background removal, and creative effects.",
+    "size": 68.9,
+    "reviews": 32500,
+    "ratingAvg": 4.8,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 325 },
+      { "name": "2 star", "count": 650 },
+      { "name": "3 star", "count": 1950 },
+      { "name": "4 star", "count": 9750 },
+      { "name": "5 star", "count": 19825 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=500&h=500&fit=crop",
+    "title": "RecipeHub",
+    "companyName": "FoodieTech",
+    "description": "Discover thousands of recipes from around the world, create personalized meal plans, generate smart shopping lists, and cook with step-by-step video guides.",
+    "size": 42.1,
+    "reviews": 19800,
+    "ratingAvg": 4.6,
+    "downloads": 4500000,
+    "ratings": [
+      { "name": "1 star", "count": 198 },
+      { "name": "2 star", "count": 396 },
+      { "name": "3 star", "count": 1584 },
+      { "name": "4 star", "count": 5940 },
+      { "name": "5 star", "count": 11682 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=500&h=500&fit=crop",
+    "title": "TravelPlanner",
+    "companyName": "Wanderlust Apps",
+    "description": "Plan your perfect trip with itinerary management, flight and hotel booking assistance, currency converter, and local recommendations from travelers.",
+    "size": 56.3,
+    "reviews": 11200,
+    "ratingAvg": 4.7,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "1 star", "count": 112 },
+      { "name": "2 star", "count": 224 },
+      { "name": "3 star", "count": 896 },
+      { "name": "4 star", "count": 3360 },
+      { "name": "5 star", "count": 6608 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=500&h=500&fit=crop",
+    "title": "MusicStream Pro",
+    "companyName": "AudioWave",
+    "description": "Stream millions of songs, create unlimited playlists, discover new music with AI recommendations, and enjoy high-quality audio streaming.",
+    "size": 88.7,
+    "reviews": 45600,
+    "ratingAvg": 4.8,
+    "downloads": 18000000,
+    "ratings": [
+      { "name": "1 star", "count": 456 },
+      { "name": "2 star", "count": 912 },
+      { "name": "3 star", "count": 2736 },
+      { "name": "4 star", "count": 13680 },
+      { "name": "5 star", "count": 27816 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=500&h=500&fit=crop",
+    "title": "NoteMaster",
+    "companyName": "Study Apps",
+    "description": "Organize your thoughts with powerful note-taking features, voice notes, handwriting recognition, cloud sync, and real-time collaboration tools.",
+    "size": 35.8,
+    "reviews": 8900,
+    "ratingAvg": 4.5,
+    "downloads": 1900000,
+    "ratings": [
+      { "name": "1 star", "count": 89 },
+      { "name": "2 star", "count": 267 },
+      { "name": "3 star", "count": 890 },
+      { "name": "4 star", "count": 2670 },
+      { "name": "5 star", "count": 4984 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=500&h=500&fit=crop",
+    "title": "WeatherNow",
+    "companyName": "MeteoTech",
+    "description": "Get accurate weather forecasts, hourly updates, severe weather alerts, interactive radar maps, and air quality information for any location.",
+    "size": 28.4,
+    "reviews": 23400,
+    "ratingAvg": 4.6,
+    "downloads": 9500000,
+    "ratings": [
+      { "name": "1 star", "count": 234 },
+      { "name": "2 star", "count": 468 },
+      { "name": "3 star", "count": 1872 },
+      { "name": "4 star", "count": 7020 },
+      { "name": "5 star", "count": 13806 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=500&h=500&fit=crop",
+    "title": "StudyBuddy",
+    "companyName": "LearnMore Inc",
+    "description": "Enhance your learning with AI-powered flashcards, custom study schedules, practice tests, progress tracking, and group study features.",
+    "size": 41.2,
+    "reviews": 15800,
+    "ratingAvg": 4.7,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 158 },
+      { "name": "2 star", "count": 316 },
+      { "name": "3 star", "count": 948 },
+      { "name": "4 star", "count": 4740 },
+      { "name": "5 star", "count": 9638 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=500&h=500&fit=crop",
+    "title": "HomeAutomation",
+    "companyName": "SmartHome Co",
+    "description": "Control all your smart home devices from one app with custom automation rules, voice control, energy monitoring, and security features.",
+    "size": 72.6,
+    "reviews": 10500,
+    "ratingAvg": 4.6,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 105 },
+      { "name": "2 star", "count": 315 },
+      { "name": "3 star", "count": 1050 },
+      { "name": "4 star", "count": 3150 },
+      { "name": "5 star", "count": 5880 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500&h=500&fit=crop",
+    "title": "YogaFlow",
+    "companyName": "Zen Studios",
+    "description": "Practice yoga at home with guided video sessions for all levels, meditation classes, breathing exercises, and personalized yoga programs.",
+    "size": 65.1,
+    "reviews": 17200,
+    "ratingAvg": 4.8,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 86 },
+      { "name": "2 star", "count": 172 },
+      { "name": "3 star", "count": 688 },
+      { "name": "4 star", "count": 5160 },
+      { "name": "5 star", "count": 11094 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=500&h=500&fit=crop",
+    "title": "PetCare Companion",
+    "companyName": "AnimalLove Apps",
+    "description": "Track your pet's health records, set reminders for vet visits and medications, find pet-friendly places, and connect with other pet owners.",
+    "size": 48.9,
+    "reviews": 12800,
+    "ratingAvg": 4.7,
+    "downloads": 2900000,
+    "ratings": [
+      { "name": "1 star", "count": 128 },
+      { "name": "2 star", "count": 256 },
+      { "name": "3 star", "count": 1024 },
+      { "name": "4 star", "count": 3840 },
+      { "name": "5 star", "count": 7552 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=500&h=500&fit=crop",
+    "title": "ShopSmart",
+    "companyName": "E-Commerce Pro",
+    "description": "Find the best deals across stores, compare prices instantly, get cashback rewards, track orders, and receive personalized shopping recommendations.",
+    "size": 54.7,
+    "reviews": 28900,
+    "ratingAvg": 4.5,
+    "downloads": 11000000,
+    "ratings": [
+      { "name": "1 star", "count": 578 },
+      { "name": "2 star", "count": 867 },
+      { "name": "3 star", "count": 2890 },
+      { "name": "4 star", "count": 8670 },
+      { "name": "5 star", "count": 15895 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=500&h=500&fit=crop",
+    "title": "GardenGuide",
+    "companyName": "GreenThumb Inc",
+    "description": "Learn to grow beautiful plants with detailed care guides, plant identification using AI, watering schedules, and community gardening tips.",
+    "size": 39.5,
+    "reviews": 7650,
+    "ratingAvg": 4.6,
+    "downloads": 1600000,
+    "ratings": [
+      { "name": "1 star", "count": 77 },
+      { "name": "2 star", "count": 230 },
+      { "name": "3 star", "count": 765 },
+      { "name": "4 star", "count": 2295 },
+      { "name": "5 star", "count": 4283 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=500&h=500&fit=crop",
+    "title": "CarTracker",
+    "companyName": "AutoTech Solutions",
+    "description": "Monitor your vehicle's health, track maintenance history, get service reminders, find nearby mechanics, and log fuel efficiency data.",
+    "size": 46.3,
+    "reviews": 9200,
+    "ratingAvg": 4.5,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 92 },
+      { "name": "2 star", "count": 276 },
+      { "name": "3 star", "count": 920 },
+      { "name": "4 star", "count": 2760 },
+      { "name": "5 star", "count": 5152 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?w=500&h=500&fit=crop",
+    "title": "SocialConnect",
+    "companyName": "NetworkHub",
+    "description": "Stay connected with friends and family through instant messaging, HD video calls, story sharing, group chats, and end-to-end encrypted conversations.",
+    "size": 82.1,
+    "reviews": 52000,
+    "ratingAvg": 4.7,
+    "downloads": 25000000,
+    "ratings": [
+      { "name": "1 star", "count": 520 },
+      { "name": "2 star", "count": 1040 },
+      { "name": "3 star", "count": 4160 },
+      { "name": "4 star", "count": 15600 },
+      { "name": "5 star", "count": 30680 }
+    ]
+  }
+]
