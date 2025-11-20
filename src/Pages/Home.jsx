@@ -1,6 +1,6 @@
 // Pages/Home.jsx
 import React from "react";
-import { Link } from "react-router"; // fixed import
+import { Link } from "react-router"; 
 import { FaStar, FaApple, FaGooglePlay, FaDownload } from "react-icons/fa";
 import useApps from "../hooks/useApps";
 
@@ -11,13 +11,19 @@ const Home = () => {
   const { apps, loading, error } = useApps();
   const topApps = apps.slice(0, 8);
 
-  if (loading) {
-    return (
-      <div className="flex justify-center items-center min-h-[60vh]">
-        <span className="loading loading-spinner loading-lg"></span>
-      </div>   
-    );
-  }
+ if (loading) {
+  return (
+    <div className="flex flex-col justify-center items-center min-h-[60vh] space-y-4">
+    
+      <div className="w-16 h-16 border-4 border-t-purple-600 border-gray-200 rounded-full animate-spin"></div>
+      
+      <p className="text-lg text-gray-600 font-medium">
+        Loading apps, please wait...
+      </p>
+    </div>
+  );
+}
+
 
   if (error) {
     return (

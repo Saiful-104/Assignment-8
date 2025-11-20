@@ -3,11 +3,18 @@ import React from 'react';
 import { Link, NavLink } from 'react-router';
 import { FaGithub } from 'react-icons/fa';
 const Nav = () => {
+
+    const isActive=({ isActive }) => {
+        return {
+            color: isActive ? 'purple' : '',
+            fontWeight: isActive ? 'bold' : '',
+        };
+    }
     return (
         <div className="navbar bg-base-100 shadow-sm">
   <div className="navbar-start">
     <div className="dropdown">
-      <div tabIndex={0} role="button" className=" ">
+      <div  className=" ">
         <Link to="/">
   <img className="w-7 h-7 mr-1" src={logo} alt="Logo" />
 </Link>
@@ -17,13 +24,13 @@ const Nav = () => {
         tabIndex="-1"
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
          <li>
-         <NavLink to='/'>Home</NavLink>
+         <NavLink style={isActive} to='/'>Home</NavLink>
       </li>
       <li>
-         <NavLink to='/allapps'>Apps</NavLink>
+         <NavLink style={isActive} to='/allapps'>Apps</NavLink>
       </li>
       <li>
-         <NavLink to='/installation'>Installation</NavLink>
+         <NavLink style={isActive} to='/installation'>Installation</NavLink>
       </li>
    
       </ul>
@@ -33,13 +40,13 @@ const Nav = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
          <li>
-         <NavLink to='/'>Home</NavLink>
+         <NavLink style={isActive} to='/'>Home</NavLink>
       </li>
       <li>
-         <NavLink to='/allapps'>Apps</NavLink>
+         <NavLink style={isActive} to='/allapps'>Apps</NavLink>
       </li>
       <li>
-         <NavLink to='/installation'>Installation</NavLink>
+         <NavLink style={isActive} to='/installation'>Installation</NavLink>
       </li>
     </ul>
   </div>

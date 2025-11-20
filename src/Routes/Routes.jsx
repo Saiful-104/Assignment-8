@@ -16,7 +16,7 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: 'allapps', // no leading /
+        path: 'allapps', 
         element: <AllApps />
       },
       {
@@ -30,7 +30,7 @@ const router = createBrowserRouter([
     ]
   },
   {
-    path: '*', // catch-all route outside main layout
+    path: '*', 
     element: <ErrorPage />
   }
 ]);
