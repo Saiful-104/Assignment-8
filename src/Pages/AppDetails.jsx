@@ -29,7 +29,7 @@ const AppDetails = () => {
     setApp(appData);
   }, [id, getAppById]);
 
-  // ✅ New Effect: Check installation status when app data is loaded
+
   useEffect(() => {
     if (app) {
       const installed = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
@@ -38,15 +38,15 @@ const AppDetails = () => {
       );
       setIsInstalled(alreadyInstalled);
     }
-  }, [app]); // Runs whenever the 'app' state changes
+  }, [app]); 
 
-  // ✅ Updated Install Handler: Saves to localStorage
+
   const handleInstall = () => {
     try {
       const installed = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
-      // Add the current app to the list
+     
       const updatedInstalled = [...installed, app];
-      // Save back to localStorage
+  
       localStorage.setItem(STORAGE_KEY, JSON.stringify(updatedInstalled));
 
       setIsInstalled(true);
@@ -92,10 +92,10 @@ const AppDetails = () => {
 
   return (
     <div className="max-w-7xl mx-auto p-6 space-y-8">
-      {/* App Information Section */}
+
       <div className="bg-white rounded-lg shadow-lg p-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Left - App Image */}
+  
           <div className="md:col-span-1">
             <img
               src={app.image}
