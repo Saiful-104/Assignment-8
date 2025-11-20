@@ -10,6 +10,7 @@ const AllApps = () => {
   const { apps, loading, error } = useApps();
   const [searchQuery, setSearchQuery] = useState("");
   const [filterApps, setFilterApps] = useState([]);
+  const [searching, setSearching] = useState(false);
 
   useEffect(() => {
     if (apps.length > 0) {
@@ -18,6 +19,9 @@ const AllApps = () => {
   }, [apps]);
 
   useEffect(() => {
+  setSearching(true); 
+
+  const timer = setTimeout(() => {
     if (searchQuery.trim() === "") {
       setFilterApps(apps);
     } else {
@@ -26,7 +30,11 @@ const AllApps = () => {
       );
       setFilterApps(filtered);
     }
-  }, [searchQuery, apps]);
+    setSearching(false); 
+  }, 300); 
+
+  return () => clearTimeout(timer);
+}, [searchQuery, apps]);
 
    const handleSearchChange =(e) => {
     setSearchQuery(e.target.value)
@@ -70,17 +78,17 @@ const AllApps = () => {
           />
         </div>
       </div>
-      
-       {filterApps.length===0 ? ( 
-          <div className="flex flex-col items-center justify-center min-h-[40vh] space-y-4">
-
-         <div className="" >
-           <img className="w-11/12" src={notFound} alt="" />
-         </div>
-         <h3 className="text-2xl font-bold text-gray-400">No App Found</h3>
-          <p className="text-gray-500">Try searching with a different keyword</p>
-         </div>
-        ) : (<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      {searching ? (
+  <div className="flex justify-center mt-10">
+    <Loading message="Searching apps..." />
+  </div>
+) : filterApps.length === 0 ? (
+  <div className="flex flex-col items-center justify-center min-h-[40vh] space-y-4">
+    <img className="w-11/12" src={notFound} alt="" />
+    <h3 className="text-2xl font-bold text-gray-400">No App Found</h3>
+    <p className="text-gray-500">Try searching with a different keyword</p>
+  </div>
+) : (<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {filterApps.map((app) => (
             <Link
               key={app.id}
