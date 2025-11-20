@@ -14,6 +14,7 @@ import {
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import useApps from "../hooks/useApps";
+import Loading from "../Pages/Loading";
 
 // Define the localStorage key
 const STORAGE_KEY = "installedApps";
@@ -57,13 +58,11 @@ const AppDetails = () => {
     }
   };
 
-  if (loading) {
-    return (
-      <div className="flex justify-center items-center min-h-[60vh]">
-        <span className="loading loading-spinner loading-lg"></span>
-      </div>
-    );
-  }
+     if (loading) {
+  return (
+     <Loading  message="Loading apps, please wait..."/>
+  );
+}
 
   if (!app) {
     return (

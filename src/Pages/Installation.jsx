@@ -28,11 +28,9 @@ const Installation = () => {
     toast.warn("App uninstalled successfully!");
   };
 
-  const sortedApps = useMemo(() => {
-    return [...installedApps].sort((a, b) =>
-      sortOrder === "high-low" ? b.downloads - a.downloads : a.downloads - b.downloads
-    );
-  }, [installedApps, sortOrder]);
+ const sortedApps = [...installedApps].sort((a, b) =>
+  sortOrder === "high-low" ? b.downloads - a.downloads : a.downloads - b.downloads
+);
 
   return (
     <div className="max-w-6xl mx-auto p-6 space-y-6">

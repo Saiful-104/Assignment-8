@@ -5,25 +5,18 @@ import { FaStar, FaApple, FaGooglePlay, FaDownload } from "react-icons/fa";
 import useApps from "../hooks/useApps";
 
 import hero from '../assets/hero.png'
+import Loading from "../Pages/Loading";
 
 
 const Home = () => {
   const { apps, loading, error } = useApps();
   const topApps = apps.slice(0, 8);
 
- if (loading) {
+     if (loading) {
   return (
-    <div className="flex flex-col justify-center items-center min-h-[60vh] space-y-4">
-    
-      <div className="w-16 h-16 border-4 border-t-purple-600 border-gray-200 rounded-full animate-spin"></div>
-      
-      <p className="text-lg text-gray-600 font-medium">
-        Loading apps, please wait...
-      </p>
-    </div>
+     <Loading  message="Loading apps, please wait..."/>
   );
 }
-
 
   if (error) {
     return (
